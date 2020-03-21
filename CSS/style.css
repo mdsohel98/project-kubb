@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* =============================
+    Banner/Menu Design Start
+================================ */
+#header-part{
+
+}
+#header-part .banner{
+    background: url(../pic/banner.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 250px;
+}
+#header-part .menuitem{
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    overflow: hidden;
+    padding: 33px 0px;
+}
+#header-part .menuitem .logo{
+    width: 40%;
+    float: left;
+}
+#header-part .menuitem .logo h2{
+    display: inline-block;
+    color: #f6f6f6;
+    font-family: 'Roboto',sans-serif ;
+    font-size:30px;
+    font-weight: 700;
+
+}
+#header-part .menuitem .menu{
+    width: 60%;
+    float: left;
+}
+#header-part .menuitem .menu ul{
+    text-align: right;
+}
+#header-part .menuitem .menu ul li{
+    display: inline-block;
+    margin-left: 43px;
+}
+#header-part .menuitem .menu ul li a{
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-size:14px;
+    font-weight: 700;
+    color: #f5f5f5;
+    line-height: 3; 
+    text-transform: uppercase;
+    transition: .3s;  
+}
+#header-part .menuitem .menu ul li a:hover{
+    color: #28b8d8;
+}
+/* banner text start */
+#header-part .banner-text{
+    text-align: center;
+    margin-top: 240px;
+}
+#header-part .banner-text h1{
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#header-part .banner-text h2{
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:40px;
+    font-weight: 300; 
+    color: #ffffff;
+    letter-spacing:3px;
+    text-transform: uppercase;
+}
+#header-part .banner-text p{
+    display: inline-block;
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:14px;
+    font-weight: 300; 
+    color: #dadadb;
+}
+/* =============================
+    Banner/Menu Design End
+================================ */
+/* contentext   aria start */
+#contenttext-part{
+    background-color: #f9f9f9;
+    padding-top: 80px;
+}
+#contenttext-part .article{
+    text-align: center;
+}
+#contenttext-part .article h1{
+    display: inline-block;
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:30px;
+    font-weight: 300;
+    color: #444444;
+    margin-bottom: 25px;
+}
+#contenttext-part .article h3{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-size: 14px;
+    color: #666666;
+
+}
+/* contentext   aria start */
+/* ==============================
+    Service Offer part Start
+=================================== */
+#serviceOffer-part{
+    background-color: #f9f9f9;
+    padding: 80px 0px;
+}
+#serviceOffer-part .col-3{margin-left: -30px;}
+
+#serviceOffer-part .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#serviceOffer-part .title h2{
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#444444;
+    text-transform: uppercase;
+}
+#serviceOffer-part .article{
+    width: 328px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    background: #ffffff;
+    float: left;
+    margin-left: 30px;
+}
+#serviceOffer-part .article img{
+    width: 100%;
+    height: 210px;
+    margin-bottom: 15px;
+}
+#serviceOffer-part .article h2{
+    display: inline-block;
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:17px;
+    font-weight: 700;
+    color: #444444;
+    margin-bottom: 15px;
+}
+#serviceOffer-part .article p{
+    font-family: 'Roboto',sans-serif ;
+    font-size:14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.6;
+
+}
+/* ==============================
+    Service Offer part End
+=================================== */
+/* ==============================
+    Instagram part start
+=================================== */
+#instagram-part{
+    background-color:#2c2c2c;
+    padding: 50px 0px;
+}
+#instagram-part .title{
+    text-align: center;
+}
+#instagram-part .title h2{
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#d5d5d5;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:45px;
+}
+#instagram-part .title h2:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+#instagram-part .title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:105%;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.latest-pic .pic1{
+    width: 25%;
+    float: left;
+}
+.latest-pic img{
+    width: 100%;
+    height: 326px;
+}
+.latest-pic .pic2{
+    width: 25%;
+    float: left;
+}
+.latest-pic .pic3{
+    width: 25%;
+    float: left;
+}
+.latest-pic .pic4{
+    width: 25%;
+    float: left;
+}
+#instagram-part .btn{
+    text-align: center;
+}
+#instagram-part .btn a{
+    display: inline-block;
+    font-family: 'Roboto',sans-serif ;
+    font-size:14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    border: 1px solid #797979;
+    padding: 16px 20px;
+    margin-top: 60px;
+    transition: .2s;
+}
+#instagram-part .btn a:hover{
+    color: #d5d5d5;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+/* ==============================
+    Instagram part End
+=================================== */
+/* ==============================
+    From journal part Start
+=================================== */
+#journal-part{
+    padding: 80px 0px;
+    background-color: #f9f9f9;
+}
+#journal-part .title{
+    text-align: center;
+}
+#journal-part .title h2{
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#444444;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:45px;
+}
+#journal-part .title h2:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+#journal-part .title h2::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:105%;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+/* article design start */
+#journal-part .article {
+    width: 358px;
+    text-align: center;
+    background:#ffffff;
+    border: 1px solid #e3e3e3;
+    padding: 25px 0px;
+    float: left;
+    margin-left: 30px;
+}
+ #journal-part .article img{
+    width: 100%;
+}
+
+#journal-part .article h2{
+    display: inline-block;
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:16px;
+    font-weight: 700;
+    margin-bottom: 11px;
+    color: #444444;
+}
+#journal-part .article h3{
+    font-family: 'Roboto',sans-serif ;
+    font-size:12px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 22px;
+}
+#journal-part .article P{
+    font-family: 'Roboto',sans-serif ;
+    font-size:14px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom:20px;
+}
+#journal-part .article .btn1{
+    width: 50%;
+    float: left;
+   
+}
+#journal-part .article .btn1 a{
+    display: inline-block;
+    margin-right: 35px;
+    border-bottom: 1px solid #28b8d8;
+    color: #999999;
+    transition: .2s;
+}
+
+#journal-part .article .btn2{
+    width: 50%;
+    float: left;
+}
+#journal-part .article .btn2 a{
+    display: inline-block;
+    margin-left: 95px;
+    transition: .2s;
+}
+#journal-part .article .btn1 a:hover{
+    color: #535353;
+    transform: scale(1.1);
+}
+#journal-part .article .btn2 a:hover{
+    color:red;
+    transform: scale(1.1);
+}
+
+#journal-part .container .col-3{
+    margin-left: -31px;
+}
+/* ===============================
+    From journal part End
+=================================== */
+/* ===============================
+    About me part Start
+=================================== */
+#aboutMe-part{
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+}
+#aboutMe-part .left{
+    width: 48%;
+    float: left;
+}
+#aboutMe-part .right{
+    width: 48%;
+    float: right;
+}
+/* Left about design start */
+#aboutMe-part .left .title h2{
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#444444;
+    text-transform: uppercase;
+    position: relative;
+}
+#aboutMe-part .left .title h2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    width: 100px;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+#aboutMe-part .left .pic{
+    float: left;
+    width: 40%;
+}
+#aboutMe-part .left .text{
+    float: left;
+    width: 60%;
+}
+#aboutMe-part .text h3{
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size:18px;
+    font-weight: 300;
+    line-height: 1.3;
+    color:#666666;
+}
+#aboutMe-part .text p{
+    text-align: justify;
+    font-family: 'Roboto',sans-serif ;
+    font-size:14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+/* right about design start */
+#aboutMe-part .icon1{
+    width:15%;
+    font-size: 40px;
+    float: left;
+    color:#28b8d8;
+}
+#aboutMe-part .text1{
+    width:75%;
+    float: left;
+}
+#aboutMe-part .text1 h3{
+    display: inline-block;
+    font-family: 'Roboto Slab',sans-serif ;
+    font-size:17px;
+    font-weight: 700;
+    color: #444444;
+
+}
+#aboutMe-part .text1 p{
+    font-family: 'Roboto', ;
+    font-size:14px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+#aboutMe-part .right .row-1{
+padding-bottom:105px;
+}
+/* about me title left design start */
+#aboutMe-part .container .left .title h1{
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#444444;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+#aboutMe-part .container .left h1::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:29%;
+    width: 100px;
+    height: 1px;
+    background:#d9d9d9;
+}
+/* about me title right design start */
+#aboutMe-part .container .right .title h2{
+    font-family: 'Roboto Condensed',sans-serif ;
+    font-size:18px;
+    font-weight:700;
+    color:#444444;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+#aboutMe-part .container .right .title h2:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 100px;
+    height: 1px;
+    background:#d9d9d9;
+}
+
+/* ===============================
+    About me part End
+=================================== */
+/* ===============================
+    Footer part Start
+=================================== */
+#fotter-part{
+    background-color: #373737;
+    padding: 68px 0;
+}
+#fotter-part .fcontainer{
+    display: flex;
+    justify-content:space-between;
+}
+#fotter-part .fcontainer .getin{
+    width: 24%;
+}
+#fotter-part .fcontainer h3{
+    font-family: 'Roboto',sans-serif ;
+    font-size:16px;
+    font-weight: 700;
+    color:#f0f0f0;
+    margin-bottom: 20px;
+}
+#fotter-part .fcontainer  p{
+    font-family: 'Roboto',sans-serif ;
+    font-size:14px;
+    font-weight: 400;
+    color: #cacaca;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+#fotter-part .fcontainer .getin ul li{
+    position: relative;
+}
+#fotter-part .fcontainer .getin ul li i{
+    color: #cacaca;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    cursor: pointer;
+}
+#fotter-part .fcontainer .getin ul li span{
+    font-family: 'Roboto',sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    display: inline-block;
+    width: 185px;
+    line-height: 22px;
+    color: #cacaca;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#fotter-part .fcontainer .twitter{
+    width: 21%;
+}
+
+#fotter-part .fcontainer .popular{
+    width: 20%;
+}
+#fotter-part .fcontainer .popular p{
+    font-family: 'Roboto',sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #cacaca;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+#fotter-part .fcontainer .popular p span{
+    font-family: 'Roboto',sans-serif;
+    font-size:12px;
+    font-weight: 400;
+    color: #929292;
+}
+#fotter-part .fcontainer .about{
+    width: 24%;
+
+}
+/* ===============================
+    Footer part End
+=================================== */
+/* ===============================
+    Footer bottom part Start
+=================================== */
+#footer-bottom{
+    background-color: #333333;
+    padding: 40px 0px;
+}
+#footer-bottom .container{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    color: #cacaca;
+} 
+/* ===============================
+    Footer bottom part End
+=================================== */
